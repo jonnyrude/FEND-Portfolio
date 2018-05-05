@@ -1,6 +1,7 @@
 #attention {
-    background-image: url("img/hockey_bckgrnd_lrg.jpg");
-    height: 1227px;
+    background-image: url("../img/hockey_bckgrnd_lrg.jpg");
+    height: auto;
+    padding-bottom: 30px;
 }
 
 

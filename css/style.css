@@ -18,9 +18,11 @@ section {
 }
 
 #attention {
-    background-image: url("img/hockey_bckgrnd_sm.jpg");
+    background-image: url("../img/hockey_bckgrnd_sm.jpg");
     height: 288px;
     padding-top: 10%;
+    background-size: cover;
+    margin-bottom: -20px;
 }
 
 
