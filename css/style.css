@@ -1,0 +1,115 @@
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+
+}
+
+#attention {
+    background-image: url("img/hockey_bckgrnd_sm.jpg");
+    height: 288px;
+    padding-top: 10%;
+}
+
+
+.intro-text {
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+}
+
+#about-me {
+    height: 288px;
+}
+
+/* *******************
+        NAVIGATION
+            ***************** */
+
+.nav-bar {
+    height: 50px;
+}
+
+.nav-bar header {
+    float: left;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.90);
+}
+header h2 {
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+nav {
+float: right;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+    padding-right: 18px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5;
+}
+
+a:hover {
+    /* TODO: */
+}
+
+/* ***********************
+        Attn-grabber
+                ************************ */
+
+#attention {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+div {
+
+}
+
+.intro-text{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(27, 27, 27, 0.788);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5em;
+    font-style: italic;
+    padding-right: .25em;
+
+}
+
+
+.img-attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ***********************
+            ABOUT
+        ************************ */
+#about-me {
+    background-color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato'; sans-serif;
+    text-align: center;
+}

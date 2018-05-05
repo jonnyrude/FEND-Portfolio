@@ -1,0 +1,14 @@
+#attention {
+    background-image: url("img/hockey_bckgrnd_md.jpg");
+    height: 575px;
+    padding-top: 90px;
+}
+
+
+.intro-text {
+    font-size: 3em;
+}
+
+#about-me {
+    height: 575px;
+}
