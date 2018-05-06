@@ -115,3 +115,18 @@ div {
     font-family: 'Lato'; sans-serif;
     text-align: center;
 }
+
+#my-work {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+ .featured {
+     width: 100%;
+ }
+
+.item {
+    text-align: center;
+    margin: 0 auto;
+}
