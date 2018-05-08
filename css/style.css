@@ -17,54 +17,56 @@ section {
 
 }
 
-#attention {
-    background-image: url("../img/hockey_bckgrnd_sm.jpg");
-    height: 288px;
-    padding-top: 10%;
-    background-size: cover;
-    margin-bottom: -20px;
-}
-
-
 .intro-text {
     font-size: 2em;
 }
 
-nav ul {
-    display: none;
-}
-
-#about-me {
-    height: 288px;
-}
 
 /* *******************
-        NAVIGATION
-            ***************** */
+NAVIGATION
+***************** */
 
 .nav-bar {
     height: 50px;
+    color: rgba(255, 255, 255, 0.90);
 }
+
 
 .nav-bar header {
     float: left;
     margin-left: 30px;
-    color: rgba(255, 255, 255, 0.90);
 }
+
 header h2 {
     margin-top: .5em;
     margin-bottom: 0;
 }
 
-nav {
-float: right;
+#menuB {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: black;
+    color: white;
 }
 
-.nav-bar li {
-    list-style-type: none;
-    float: left;
-    padding-right: 18px;
-}
+
+
+nav {
+    width: 75%;
+    height: 150px;
+    z-index: 1;
+    background-color: rgba(27, 27, 27, 0.89);
+    position: absolute;
+    -webkit-transform: translate(50%, -150px);
+    transform: translate(50%, -150px);
+    transition: transform 0.3s ease;
+  }
+
+  nav.open {
+    -webkit-transform: translate(50%, 50px);
+    transform: translate(50%, 50px);
+  }
 
 .nav-bar a {
     text-decoration: none;
@@ -72,18 +74,31 @@ float: right;
     letter-spacing: 1.5;
 }
 
+li {
+    list-style-type: none;
+    line-height: 1.7em;
+}
+
 a:hover {
     /* TODO: */
 }
 
 /* ***********************
-        Attn-grabber
-                ************************ */
+Attn-grabber
+************************ */
 
 #attention {
     background-repeat: no-repeat;
     background-position-x: center;
     position: relative;
+}
+
+#attention {
+    background-image: url("../img/hockey_bckgrnd_sm.jpg");
+    height: 288px;
+    padding-top: 10%;
+    background-size: cover;
+    margin-bottom: -20px;
 }
 
 div {
@@ -108,8 +123,12 @@ div {
 }
 
 /* ***********************
-            ABOUT
-        ************************ */
+ABOUT
+*********************** */
+#about-me {
+    height: 288px;
+}
+
 #about-me {
     background-color: rgba(255, 255, 255, 0.90);
     font-family: 'Lato'; sans-serif;
@@ -122,11 +141,11 @@ div {
     flex-wrap: wrap;
     color: white;
 }
- .featured {
-     width: 100%;
- }
+.featured {
+    width: 100%;
+}
 
 .item {
     text-align: center;
     margin: 0 auto;
-}
+} */

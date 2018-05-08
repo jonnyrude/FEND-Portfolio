@@ -5,11 +5,28 @@
     padding-top: 90px;
 }
 
-
 .intro-text {
     font-size: 3em;
 }
 
 #about-me {
     height: 575px;
+}
+
+button {
+    display: none;
+}
+
+nav {
+    display: block;
+    float: right;
+}
+
+nav ul {
+}
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+    padding-right: 18px;
 }
