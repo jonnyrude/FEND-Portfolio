@@ -145,7 +145,21 @@ div {
 }
 
 /* ***********************
-ABOUT
+    FEATURED WORK
+*********************** */
+div.featured {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #7d97ad;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+
+/* ***********************
+    ABOUT
 *********************** */
 #about-me {
     height: 288px;
