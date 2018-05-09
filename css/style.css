@@ -53,19 +53,21 @@ header h2 {
 
 
 nav {
-    width: 75%;
+    /* display: none; */
+    width: 50%;
     height: 150px;
     z-index: 1;
     background-color: rgba(27, 27, 27, 0.89);
     position: absolute;
-    -webkit-transform: translate(50%, -150px);
-    transform: translate(50%, -150px);
+    -webkit-transform: translate(100%, -150px);
+    transform: translate(100%, -150px);
     transition: transform 0.3s ease;
   }
 
   nav.open {
-    -webkit-transform: translate(50%, 50px);
-    transform: translate(50%, 50px);
+    /* display: block; */
+    -webkit-transform: translate(100%, 50px);
+    transform: translate(100%, 50px);
   }
 
 .nav-bar a {
@@ -73,6 +75,7 @@ nav {
     color: white;
     letter-spacing: 1.5;
 }
+
 
 li {
     list-style-type: none;
@@ -148,4 +151,8 @@ ABOUT
 .item {
     text-align: center;
     margin: 0 auto;
-} */
+}
+
+.item img {
+    max-width: 100%;
+}

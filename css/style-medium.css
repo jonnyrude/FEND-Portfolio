@@ -18,11 +18,18 @@ button {
 }
 
 nav {
-    display: block;
     float: right;
+    width: 60%;
+    height: 50px;
+    position: static;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    display: block;
 }
 
 nav ul {
+    float: right;
+    padding: 0;
 }
 
 .nav-bar li {
