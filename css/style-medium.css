@@ -21,9 +21,9 @@ nav {
     float: right;
     width: 60%;
     height: 50px;
-    position: static;
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
+    position: static;
     display: block;
 }
 
