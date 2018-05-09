@@ -10,7 +10,7 @@
 }
 
 #about-me {
-    height: 575px;
+    /* height: 575px; */
 }
 
 button {
@@ -18,11 +18,18 @@ button {
 }
 
 nav {
-    display: block;
     float: right;
+    width: 50%;
+    height: 50px;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: static;
+    display: block;
 }
 
 nav ul {
+    float: right;
+    padding: 0;
 }
 
 .nav-bar li {
