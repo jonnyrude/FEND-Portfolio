@@ -27,17 +27,39 @@ NAVIGATION
 
 .nav-bar {
     height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 4px #7d97ad;
 }
 
 
 .nav-bar header {
     float: left;
-    margin-left: 30px;
+    margin-left: 10px;
+    display: flex;
 }
 
 header img {
     width: 50px;
     height: 50px;
+    margin-right: 8px;
+}
+
+div.name {
+    padding-left: 13px;
+    border-left: 1px solid #7d97ad;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+div.main-heading {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+div.sub-heading {
+    font-size: 16px;
+    padding-left: 4px;
 }
 
 #menuB {
@@ -90,6 +112,7 @@ Attn-grabber
     background-repeat: no-repeat;
     background-position-x: center;
     position: relative;
+    margin-top: 5px;
 }
 
 #attention {
