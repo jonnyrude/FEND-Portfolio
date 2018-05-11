@@ -88,9 +88,12 @@ nav {
     transform: translate(100%, 50px);
   }
 
+a {
+  text-decoration: none;
+  color: #2d3c49;
+}
+
 .nav-bar a {
-    text-decoration: none;
-    color: #2d3c49;
     letter-spacing: 1.5;
 }
 
@@ -123,10 +126,6 @@ Attn-grabber
     margin-bottom: -20px;
 }
 
-div {
-
-}
-
 .intro-text{
     font-family: 'Lato', sans-serif;
     background-color: rgba(27, 27, 27, 0.788);
@@ -156,7 +155,24 @@ div.featured {
     letter-spacing: 1px;
 }
 
+div.featured h2 {
+    font-size: 20px;
+}
 
+ h3 {
+    margin-top: .15em;
+    margin-bottom: .08em;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+div.item a {
+    font-size: 14px;
+}
+
+div.item {
+    margin-bottom: 1.5em;
+}
 
 /* ***********************
     ABOUT
