@@ -108,7 +108,7 @@ a:hover {
 }
 
 /* ***********************
-Attn-grabber
+    Attn-grabber
 ************************ */
 
 #attention {
@@ -178,13 +178,11 @@ div.item {
     ABOUT
 *********************** */
 #about-me {
-    height: 288px;
-}
-
-#about-me {
-    background-color: rgba(255, 255, 255, 0.90);
-    font-family: 'Lato'; sans-serif;
+    background-color: #2d3c49;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato', sans-serif;
     text-align: center;
+    padding: 50px 20px 50px 20px;
 }
 
 #my-work {
