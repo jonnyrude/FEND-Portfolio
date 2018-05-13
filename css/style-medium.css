@@ -1,11 +1,10 @@
-
 /* *******************
     NAVIGATION/HEADER
 ***************** */
-
 button {
     display: none;
 }
+
 
 nav {
     float: right;
@@ -17,10 +16,12 @@ nav {
     display: block;
 }
 
+
 nav ul {
     float: right;
     padding: 0;
 }
+
 
 .nav-bar li {
     list-style-type: none;
@@ -28,11 +29,16 @@ nav ul {
     padding-right: 18px;
 }
 
+
 #menu-small {
     height: 100%;
     margin-top: 1em;
 }
 
+
+/* ***********************
+    Attn-grabber
+************************ */
 #attention {
     background-image: url("../img/hockey_bckgrnd_md.jpg");
     height: auto;
@@ -40,7 +46,7 @@ nav ul {
     padding-top: 90px;
 }
 
+
 .intro-text {
     font-size: 3em;
 }
-

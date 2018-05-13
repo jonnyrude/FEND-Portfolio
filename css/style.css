@@ -5,6 +5,7 @@
     display: table;
 }
 
+
 body {
     margin: 0;
     font-size:16px;
@@ -12,14 +13,16 @@ body {
     color: #2d3c49;
 }
 
+
 .intro-text {
     font-size: 2em;
 }
 
+
+
 /* *******************
     NAVIGATION/HEADER
 ***************** */
-
 .nav-bar {
     height: 50px;
     padding-top: 10px;
@@ -34,11 +37,13 @@ body {
     display: flex;
 }
 
+
 header img {
     width: 50px;
     height: 50px;
     margin-right: 8px;
 }
+
 
 div.name {
     padding-left: 13px;
@@ -52,10 +57,12 @@ div.main-heading {
     letter-spacing: 1px;
 }
 
+
 div.sub-heading {
     font-size: 16px;
     padding-left: 4px;
 }
+
 
 #menuB {
     height: 50px;
@@ -63,6 +70,7 @@ div.sub-heading {
     float: right;
     background-color: white;
 }
+
 
 nav {
     width: 50%;
@@ -74,18 +82,21 @@ nav {
     -webkit-transform: translate(100%, -175px);
     transform: translate(100%, -175px);
     transition: transform 0.3s ease;
-  }
+}
 
-  nav.open {
-    background-color: rgb(255, 255, 255);
-    -webkit-transform: translate(100%, 50px);
-    transform: translate(100%, 50px);
-  }
+
+nav.open {
+background-color: rgb(255, 255, 255);
+-webkit-transform: translate(100%, 50px);
+transform: translate(100%, 50px);
+}
+
 
 a {
   text-decoration: none;
   color: #2d3c49;
 }
+
 
 .nav-bar a {
     letter-spacing: 1.2px;
@@ -97,20 +108,23 @@ li {
     line-height: 1.7em;
 }
 
+
 a:hover {
-    /* TODO: */
+    color: #02b3e4;
 }
+
+
 
 /* ***********************
     Attn-grabber
 ************************ */
-
 #attention {
     background-repeat: no-repeat;
     background-position-x: center;
     position: relative;
     margin-top: 5px;
 }
+
 
 #attention {
     background-image: url("../img/hockey_bckgrnd_sm.jpg");
@@ -119,6 +133,7 @@ a:hover {
     background-size: cover;
     margin-bottom: -20px;
 }
+
 
 .intro-text{
     font-family: 'Lato', sans-serif;
@@ -137,6 +152,8 @@ a:hover {
     right: 0;
 }
 
+
+
 /* ***********************
     FEATURED WORK
 *********************** */
@@ -149,9 +166,11 @@ div.featured {
     letter-spacing: 1px;
 }
 
+
 div.featured h2 {
     font-size: 20px;
 }
+
 
  h3 {
     margin-top: .15em;
@@ -160,13 +179,17 @@ div.featured h2 {
     font-size: 18px;
 }
 
+
 div.item a {
     font-size: 14px;
 }
 
+
 div.item {
     margin-bottom: 1.5em;
 }
+
+
 
 /* ***********************
     ABOUT
@@ -179,6 +202,7 @@ div.item {
     padding: 50px 20px 50px 20px;
 }
 
+
 #my-work {
     width: 100%;
     display: flex;
@@ -186,14 +210,17 @@ div.item {
     color: #2d3c49;
 }
 
+
 .featured {
     width: 100%;
 }
+
 
 .item {
     text-align: center;
     margin: 0 auto;
 }
+
 
 .item img {
     width: 300px;

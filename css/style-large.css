@@ -7,32 +7,38 @@
     padding: 20px 2em 20px 2em;
 }
 
+
 div.main-heading {
     font-size: 40px;
 }
 
+
 div.sub-heading {
     font-size: 18px;
 }
+
 
 header img {
     width: 70px;
     height: 70px;
 }
 
+
 .nav-bar li {
     font-size: 1.5em;
     padding-right: 2.1em;
 }
 
+
 #menu-small {
     margin-top: 2em;
 }
 
+
+
 /* ***********************
     Attn-grabber
 ************************ */
-
 #attention {
     background-image: url("../img/hockey_bckgrnd_lrg.jpg");
     height: auto;
@@ -44,17 +50,24 @@ header img {
     font-size: 6em;
 }
 
+
+/* ***********************
+    FEATURED WORK
+*********************** */
 div.featured h2 {
     font-size: 2em;
 }
+
 
 h3 {
     font-size: 1.75em;
 }
 
+
 div.item a {
     font-size: 1em;
 }
+
 
 .item img {
     width: 400px;
