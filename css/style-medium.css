@@ -1,17 +1,7 @@
-#attention {
-    background-image: url("../img/hockey_bckgrnd_md.jpg");
-    height: auto;
-    padding-bottom: 20px;
-    padding-top: 90px;
-}
 
-.intro-text {
-    font-size: 3em;
-}
-
-#about-me {
-    /* height: 575px; */
-}
+/* *******************
+    NAVIGATION/HEADER
+***************** */
 
 button {
     display: none;
@@ -37,3 +27,20 @@ nav ul {
     float: left;
     padding-right: 18px;
 }
+
+#menu-small {
+    height: 100%;
+    margin-top: 1em;
+}
+
+#attention {
+    background-image: url("../img/hockey_bckgrnd_md.jpg");
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 90px;
+}
+
+.intro-text {
+    font-size: 3em;
+}
+

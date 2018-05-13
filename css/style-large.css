@@ -1,3 +1,7 @@
+/* *******************
+    NAVIGATION/HEADER
+***************** */
+
 .nav-bar {
     height: 70px;
     padding: 20px 2em 20px 2em;
@@ -9,7 +13,6 @@ div.main-heading {
 
 div.sub-heading {
     font-size: 18px;
-
 }
 
 header img {
@@ -23,9 +26,7 @@ header img {
 }
 
 #menu-small {
-    height: 100%;
     margin-top: 2em;
-    background-color: transparent;
 }
 
 /* ***********************
@@ -53,4 +54,8 @@ h3 {
 
 div.item a {
     font-size: 1em;
+}
+
+.item img {
+    width: 400px;
 }

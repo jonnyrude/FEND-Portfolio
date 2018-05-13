@@ -12,17 +12,12 @@ body {
     color: #2d3c49;
 }
 
-section {
-
-}
-
 .intro-text {
     font-size: 2em;
 }
 
-
 /* *******************
-NAVIGATION
+    NAVIGATION/HEADER
 ***************** */
 
 .nav-bar {
@@ -73,17 +68,16 @@ nav {
     width: 50%;
     height: 150px;
     z-index: 1;
-    background-color: rgba(255, 255, 255);
+    background-color: transparent;
     opacity: 0.95;
     position: absolute;
     -webkit-transform: translate(100%, -175px);
     transform: translate(100%, -175px);
     transition: transform 0.3s ease;
-    /* display: none; */
   }
 
   nav.open {
-    /* display: block; */
+    background-color: rgba(255, 255, 255);
     -webkit-transform: translate(100%, 50px);
     transform: translate(100%, 50px);
   }
@@ -202,5 +196,6 @@ div.item {
 }
 
 .item img {
+    width: 300px;
     max-width: 100%;
 }
