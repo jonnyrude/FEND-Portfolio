@@ -8,12 +8,12 @@
 }
 
 
-div.main-heading {
+.main-heading {
     font-size: 40px;
 }
 
 
-div.sub-heading {
+.sub-heading {
     font-size: 18px;
 }
 
@@ -24,7 +24,7 @@ header img {
 }
 
 
-.nav-bar li {
+li {
     font-size: 1.5em;
     padding-right: 2.1em;
 }
