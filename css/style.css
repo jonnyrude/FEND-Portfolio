@@ -129,7 +129,7 @@ a:hover {
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.5em;
     font-style: italic;
-    padding-right: .25em;
+    padding-right: 0.25em;
 
 }
 
@@ -162,8 +162,8 @@ FEATURED WORK
 
 
 h3 {
-    margin-top: .15em;
-    margin-bottom: .08em;
+    margin-top: 0.15em;
+    margin-bottom: 0.08em;
     text-transform: uppercase;
     font-size: 18px;
 }
