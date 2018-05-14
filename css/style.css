@@ -155,19 +155,20 @@ a:hover {
 
 
 /* ***********************
-    FEATURED WORK
+FEATURED WORK
 *********************** */
-div.featured {
+.featured {
     margin-top: 20px;
     margin-left: 10px;
     color: #7d97ad;
     font-size: 18px;
     font-weight: 100;
     letter-spacing: 1px;
+    width: 100%;
 }
 
 
-div.featured h2 {
+.featured-head {
     font-size: 20px;
 }
 
@@ -180,30 +181,12 @@ div.featured h2 {
 }
 
 
-div.item a {
+.work-link {
     font-size: 14px;
 }
 
 
-div.item {
-    margin-bottom: 1.5em;
-}
-
-
-
-/* ***********************
-    ABOUT
-*********************** */
-#about-me {
-    background-color: #2d3c49;
-    color: rgba(255, 255, 255, 0.90);
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding: 50px 20px 50px 20px;
-}
-
-
-#my-work {
+.my-work {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -211,18 +194,27 @@ div.item {
 }
 
 
-.featured {
-    width: 100%;
-}
-
-
 .item {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 1.5em auto;
+
 }
 
 
-.item img {
+.work-img {
     width: 300px;
     max-width: 100%;
+}
+
+
+
+/* ***********************
+    ABOUT
+*********************** */
+.about-me {
+    background-color: #2d3c49;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
 }

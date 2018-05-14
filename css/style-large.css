@@ -54,7 +54,7 @@ header img {
 /* ***********************
     FEATURED WORK
 *********************** */
-div.featured h2 {
+.featured-head {
     font-size: 2em;
 }
 
@@ -64,11 +64,11 @@ h3 {
 }
 
 
-div.item a {
+.work-link {
     font-size: 1em;
 }
 
 
-.item img {
+.work-img {
     width: 400px;
 }
